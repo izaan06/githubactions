@@ -23,7 +23,7 @@ class TestProvaEscrita03(unittest.TestCase):
         """
         resultat = comptar_estudiants(notes_estudiants)
         # Comprovem que el nombre d'estudiants sigui 4
-        self.assertEqual(resultat, 5)
+        self.assertEqual(resultat, 4)
     
     def test3(self):
         """
